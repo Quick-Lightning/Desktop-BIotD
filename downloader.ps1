@@ -1,0 +1,1 @@
+irm "bing.com$((irm "bing.com/HPImageArchive.aspx?format=js&mkt=en-US&n=1").images[0].url)" -OutFile bing.jpg
